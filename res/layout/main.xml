@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/widget45"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="3dp"
+        android:layout_y="6dp"
+        android:clickable="true"
+        android:src="@drawable/schedule" />
+
+    <ImageView
+        android:id="@+id/widget45_copy_copy"
+        android:layout_width="fill_parent"
+        android:layout_height="47px"
+        android:layout_x="0dp"
+        android:layout_y="390dp"
+        android:src="@drawable/blue1" />
+
+    <ImageView
+        android:id="@+id/widget45_copy"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="277dp"
+        android:layout_y="5dp"
+        android:clickable="true"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/widget44"
+        android:layout_width="224dp"
+        android:layout_height="45px"
+        android:layout_x="50dp"
+        android:layout_y="9dp"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/camp"
+        android:layout_width="100dp"
+        android:layout_height="116dp"
+        android:layout_x="172dp"
+        android:layout_y="184dp"
+        android:src="@drawable/sendgroup" />
+
+    <ImageButton
+        android:id="@+id/club_list"
+        android:layout_width="102dp"
+        android:layout_height="115dp"
+        android:layout_x="52dp"
+        android:layout_y="182dp"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/associa"
+        android:layout_width="103dp"
+        android:layout_height="116dp"
+        android:layout_x="52dp"
+        android:layout_y="58dp"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/stages"
+        android:layout_width="102dp"
+        android:layout_height="118dp"
+        android:layout_x="172dp"
+        android:layout_y="56dp"
+        android:src="@drawable/notes" />
+
+    <ImageButton
+        android:id="@+id/galy"
+        android:layout_width="216dp"
+        android:layout_height="50dp"
+        android:layout_x="56dp"
+        android:layout_y="312dp"
+        android:src="@drawable/galery" />
+
+</AbsoluteLayout>

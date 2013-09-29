@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/widget45"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="3dp"
+        android:layout_y="6dp"
+        android:src="@drawable/schedule"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/widget45_copy"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="275dp"
+        android:layout_y="6dp"
+        android:clickable="true"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/widget44"
+        android:layout_width="219dp"
+        android:layout_height="45px"
+        android:layout_x="54dp"
+        android:layout_y="9dp"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/widget45_copy_copy"
+        android:layout_width="fill_parent"
+        android:layout_height="47px"
+        android:layout_x="0dp"
+        android:layout_y="388dp"
+        android:src="@drawable/blue1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="54dp"
+        android:text="Association"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/widget71"
+        android:layout_width="291dp"
+        android:layout_height="304dp"
+        android:layout_x="3dp"
+        android:layout_y="82dp" >
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="292dp"
+            android:layout_height="937dp"
+            
+            
+            android:orientation="vertical" >
+
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_x="15dp"
+                android:text="Le Mouvement Jeunes Science de Tunisie est né en 1959 de l&apos;idée d&apos;un groupe d&apos;intellectuels qui constate l&apos;absence d&apos;activités scientifiques et techniques au sein des associations et organisations structurées, en l&apos;instar du sport, de la culture et de la littérature.?C&apos;est ainsi que ce groupe, voulant combler ce vide, crée un club scientifique ouvert aux jeunes et aux moins jeunes avec des équipements leur permettant de percer les secrets de la science et de développer leurs connaissances en manipulant eux-mêmes les appareillages, les outils et les composants." />
+
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Objectifs 
+
+Inciter les jeunes à s'adonner aux activités scientifiques et techniques pendant leur temps libre?Leur donner le goût de la recherche scientifique, de la création et de l'invention technologique et éveiller en eux des vocation dans ces domaines?Œuvrer pour une culture scientifique et technologique auprès du grand public Réseau des clubs Jeunes Science 
+
+L'activité au sein des clubs, de Tunis et du reste du pays, couvre toute l'année scolaire et universitaire. Il s'agit d'une activité permanente et de base de l'association.?Le jeune adhérent trouve dans son club, le laboratoire, l'atelier, les équipements et les appareillages scientifiques et techniques, les produits, les composants et les autres matières qui lui permettent d'occuper ses heures de loisirs à satisfaire une curiosité (recherche) ou à réaliser un projet.?Le réseau actuel comporte une trentaine de clubs animés par des cadres bénévoles, venant d'horizons divers : enseignants, ingénieurs, techniciens, etc. (souvent des anciens de l'association).?
+
+
+Camps scientifiques d'été 
+
+Destinés surtout aux jeunes qui n'ont pas eu la chance d'avoir un club Jeunes Science dans leurs localités, les camps scientifiques offrent aux jeunes la découverte des activités scientifiques extra-scolaires.?Dans un camp scientifique, les participants pratiquent les activités scientifiques et technologiques en plus d'autres activités de loisirs. Sa durée varie entre 10 et 21 jours selon les disciplines pratiquées et également selon l'âge (jeunes ou enfants) et le niveau des participants (primaire, secondaire ou universitaire)." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</AbsoluteLayout>

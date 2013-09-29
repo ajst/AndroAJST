@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event
+		nom="Stage"
+		temps="2012-10-12"
+		lieu="Hammamet"
+		description="Stage de formation pour les animateurs "
+	/>
+	
+	<event
+		nom="Camps"
+		temps="2012-01-19"
+		lieu="Chott Mariem"
+		description="Camps scientifique"
+	/>
+</events>

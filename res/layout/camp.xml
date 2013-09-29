@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/widget45"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="3dp"
+        android:layout_y="6dp"
+        android:src="@drawable/schedule"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/widget45_copy"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="275dp"
+        android:layout_y="6dp"
+        android:clickable="true"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/widget44"
+        android:layout_width="219dp"
+        android:layout_height="45px"
+        android:layout_x="54dp"
+        android:layout_y="9dp"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="48dp"
+        android:text="Camps"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="282dp"
+        android:layout_height="294dp"
+        android:layout_x="22dp"
+        android:layout_y="86dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destinés surtout aux jeunes qui n'ont pas eu la chance d'avoir un club Jeunes Science dans leurs localités, les camps scientifiques offrent aux jeunes la découverte des activités scientifiques extra-scolaires.
+Dans un camp scientifique, les participants pratiquent les activités scientifiques et technologiques en plus d'autres activités de loisirs. Sa durée varie entre 10 et 21 jours selon les disciplines pratiquées et également selon l'âge (jeunes ou enfants) et le niveau des participants (primaire, secondaire ou universitaire)" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camps2" />
+
+    </LinearLayout>
+
+</AbsoluteLayout>

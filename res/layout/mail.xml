@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse Email" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailaddress"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:width="185dip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/Object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Objet du mail " >
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailsubject"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:width="120dip" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="9"
+        android:width="300dip" >
+    </EditText>
+
+    <Button
+        android:id="@+id/emailsendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:width="150dip" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/widget45"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="3dp"
+        android:layout_y="6dp"
+        android:src="@drawable/schedule"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/widget45_copy"
+        android:layout_width="50px"
+        android:layout_height="47px"
+        android:layout_x="275dp"
+        android:layout_y="6dp"
+        android:clickable="true"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/widget44"
+        android:layout_width="219dp"
+        android:layout_height="45px"
+        android:layout_x="54dp"
+        android:layout_y="9dp"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <!-- ttttt -->
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="186dp"
+        android:layout_weight="0.2"
+        android:layout_y="77dp"
+        android:src="@drawable/no_photo" >
+</ImageView>
+	<Gallery android:id="@+id/gallery" android:layout_width="fill_parent"
+		android:layout_height="130dp" android:background="@color/blanc"
+		android:layout_y="275dp"></Gallery>
+    <!-- ttttt -->
+    
+    <ImageView
+        android:id="@+id/widget45_copy_copy"
+        android:layout_width="fill_parent"
+        android:layout_height="47px"
+        android:layout_x="0dp"
+        android:layout_y="388dp"
+        
+        android:src="@drawable/blue1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="48dp"
+        android:text="Gallerie"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>

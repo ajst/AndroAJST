@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club 
+	name="Tunis"
+	description=" Ceci est une description du Club "
+	adress="11, Rue Alain Savary, Tunis, Tunisie 1000"
+	logo=""
+	longitude="10187352"
+	altitude="36799990"
+	email="tunis@ajst.com"
+	>
+	<membres>
+		<membre nom="ben taher" 
+				prenom="jihed" 
+				date_naissance="30/08/1990"
+				tel="20778515"
+				email="phpien2008@gmail.com"
+				num_inscri="1111"
+				fonction="animateur informatique" />
+	</membres>
+	<sections>
+		<section
+			nom_section="informatique"
+			description="section informatique"
+			responsable="Med Bejar">
+			<animateurs>
+				<animateur num="1111"/>
+			</animateurs>
+		</section>
+	</sections>
+	<comite 
+	directeur="Mekni Taher"
+	tresorier="Jihed Ben Taher" />
+</club>
