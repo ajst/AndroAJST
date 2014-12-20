@@ -1,3 +1,3 @@
 AndroAJST
 =========
-Application Android codée en JAVA dans un stage de formation avec l'AJST
+Application Android codée en JAVA dans un stage de formation avec l'AJST.
